@@ -91,7 +91,7 @@ lyr_MUNICIPIOS_SC_WGS84_2.set('fieldImages', {'OBJECTID': 'TextEdit', 'LEY_MUN':
 lyr_PROVINCIAS_SC_WGS84_3.set('fieldImages', {'OBJECTID': 'TextEdit', 'PROVINCIA': 'TextEdit', 'F_LEY_PROV': 'DateTime', 'COD_PROV': 'TextEdit', });
 lyr_DEPARTAMENTO_SC_WGS84_4.set('fieldImages', {'OBJECTID': 'TextEdit', 'DEPARTAMEN': 'TextEdit', });
 lyr_LIMITES_PRECISOS_SANTA_CRUZ_WGS84_5.set('fieldImages', {'ID_LIMITE': 'TextEdit', 'ID_TRAMO': 'TextEdit', 'DIST_KM': 'TextEdit', 'FECHA_LEY': 'DateTime', 'LIMITE': 'TextEdit', 'TIPO_LIMIT': 'TextEdit', 'Z_UTM': 'TextEdit', 'LEY': 'TextEdit', 'DEPARTAMEN': 'TextEdit', 'UT_A_': 'TextEdit', 'UT_B_': 'TextEdit', 'LEY_DE_EST': 'TextEdit', });
-lyr_MUNICIPIOS_SC_WGS84_2.set('fieldLabels', {'OBJECTID': 'no label', 'LEY_MUN': 'header label', 'F_LEY_MUN': 'no label', 'COD_MUN': 'no label', 'MUN_TIOC': 'no label', });
+lyr_MUNICIPIOS_SC_WGS84_2.set('fieldLabels', {'OBJECTID': 'header label', 'LEY_MUN': 'header label', 'F_LEY_MUN': 'no label', 'COD_MUN': 'no label', 'MUN_TIOC': 'no label', });
 lyr_PROVINCIAS_SC_WGS84_3.set('fieldLabels', {'OBJECTID': 'no label', 'PROVINCIA': 'no label', 'F_LEY_PROV': 'no label', 'COD_PROV': 'no label', });
 lyr_DEPARTAMENTO_SC_WGS84_4.set('fieldLabels', {'OBJECTID': 'no label', 'DEPARTAMEN': 'no label', });
 lyr_LIMITES_PRECISOS_SANTA_CRUZ_WGS84_5.set('fieldLabels', {'ID_LIMITE': 'no label', 'ID_TRAMO': 'no label', 'DIST_KM': 'no label', 'FECHA_LEY': 'no label', 'LIMITE': 'no label', 'TIPO_LIMIT': 'no label', 'Z_UTM': 'no label', 'LEY': 'no label', 'DEPARTAMEN': 'no label', 'UT_A_': 'inline label', 'UT_B_': 'inline label', 'LEY_DE_EST': 'no label', });

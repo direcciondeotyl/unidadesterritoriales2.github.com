@@ -9,7 +9,7 @@ var style_PROVINCIAS_SC_WGS84_3 = function(feature, resolution){
     var value = ""
     var labelText = "";
     size = 0;
-    var labelFont = "9.1px \'Open Sans\', sans-serif";
+    var labelFont = "11.700000000000001px \'Open Sans\', sans-serif";
     var labelFill = "#fb34e4";
     var bufferColor = "#fafafa";
     var bufferWidth = 0.5;
@@ -21,7 +21,7 @@ var style_PROVINCIAS_SC_WGS84_3 = function(feature, resolution){
         labelText = String(feature.get("PROVINCIA"));
     }
     var style = [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(251,52,228,1.0)', lineDash: [10,5,1,5], lineCap: 'butt', lineJoin: 'miter', width: 1}),
+        stroke: new ol.style.Stroke({color: 'rgba(251,52,228,1.0)', lineDash: [10,5,1,5], lineCap: 'butt', lineJoin: 'miter', width: 3}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)

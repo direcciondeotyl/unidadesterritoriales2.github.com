@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="./resources/qgis2web.css">
         <style>
         .ol-geocoder.gcd-gl-container {
-            top: 135px!important;
+            top: 100px!important;
             left: .5em!important;
             width: 2.1em!important;
             height: 2.1em!important;
@@ -29,7 +29,7 @@
             height: 2.1875em;
         }
         .ol-touch .ol-geocoder.gcd-gl-container{
-            top: 180px!important;
+            top: 130px!important;
         }
         .ol-geocoder .gcd-gl-btn {
             width: 1.375em!important;
@@ -40,11 +40,11 @@
         </style>
 <style>
 .search-layer {
-  top: 170px;
+  top: 135px;
   left: .5em;
 }
 .ol-touch .search-layer {
-  top: 230px;
+  top: 180px;
 }
 </style>
         <style>
@@ -68,16 +68,6 @@
             border-top: none !important;
             background: rgba(255, 255, 255, 0.5) !important;
             color: black !important;
-        }
-        </style>
-
-        <style>
-        .geolocate {
-            top: 65px;
-            left: .5em;
-        }
-        .ol-touch .geolocate {
-            top: 80px;
         }
         </style>
         <link href="resources/ol-geocoder.min.css" rel="stylesheet">
@@ -115,12 +105,12 @@
   border-top-color: #ffcc33;
 }
 .measure-control {
-  top: 100px;
+  top: 65px;
   left: .5em;
   display: flex;
 }
 .ol-touch .measure-control {
-  top: 130px;
+  top: 80px;
 }
 .measure-control label {
   padding: 1px;
@@ -128,9 +118,11 @@
 }
 </style>
         <style>
-        #map {
-            width: 1506px;
-            height: 852px;
+        html, body, #map {
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
         }
         </style>
         <title></title>
@@ -143,8 +135,6 @@
             </div>
         </div>
         <script src="resources/qgis2web_expressions.js"></script>
-<script src="resources/proj4.js"></script>
-        <script>proj4.defs('EPSG:32720','+proj=utm +zone=20 +south +datum=WGS84 +units=m +no_defs');</script>
         <script src="resources/polyfills.js"></script>
         <script src="./resources/functions.js"></script>
         <script src="./resources/ol.js"></script>
